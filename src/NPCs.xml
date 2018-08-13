@@ -1,0 +1,10 @@
+<NPCs>
+	<NPC name="Strongjoe" HP="100">
+		<item name="Joe's muscle syrum" damage ="0" speed ="100">Joe's muscle syrum. Drink to be Joestrong</item>
+		<weapon name="Joe's sword" damage ="10" speed ="30">A sharp sword</weapon>
+	</NPC>
+	<NPC name="Weakjoe" HP="1">
+		<item name="Joe's stick" damage ="1000" speed ="1">An ordinary stick</item>
+		<weapon name="Joe's sword" damage ="1" speed ="30">A sword? Useless</weapon>
+	</NPC>
+</NPCs>

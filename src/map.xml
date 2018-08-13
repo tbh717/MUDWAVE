@@ -1,0 +1,29 @@
+<rooms>
+	<room name="cafe" ref="cafe">
+		<description>A heavy blanket of rain thumps against the cafe window. Outside, the night sky is hidden behind the bright neon glow of the city. The room is bustling; conversations cloud the thick air.</description>
+		<item name="soylent waste" damage ="0" speed ="1">A discarded carton of soylent grey. A faint glow persists</item>
+		<item name="bioseminar flyer" damage ="0" speed ="1">A flyer detailing an upcoming local Bioseminar. It is suspended from the edge of a regenerative cartridge</item>
+		<item name="complementary mint" damage ="0" speed ="1">A bowl of complementary mints contains deshelled mintseeds</item>
+		<exits>wavewall,0,0,0,0,0</exits>
+	</room>
+	<room name="wavewall" ref="wavewall">
+		<description>The dark aluminum surface is slick with rainwater. More bustling stores line each side of the street, moving a constant ebb and flow of hooded comers and goers. The city churns.</description>
+		<item name="sanosensor" damage ="0" speed ="5">A used sanosensor lies empty in the gutter</item>
+		<item name="comm-n4" damage ="10" speed ="20">The newest model. Seemingly fell from an unsuspecting passerby</item>
+		<item name="crumpled paper" damage ="0" speed ="40">A dry crumpled piece of paper rests against the side of the building, shielded by the pHarma.cleric's overhang</item>
+		<exits>pharma,cloudwest,0,theatre,0,0</exits>
+	</room>
+	<room name="theatre" ref="theatre">
+		<description>It's a movie theatre. You're already playing a game, isn't that enough audio-visual stimulation? Just kidding. There's no audio or visuals here. Just text.</description>
+		<item name="Sanosensor" damage ="1" speed ="1">A used sanosensor lies empty in the gutter</item>
+		<item name="comm-n4" damage ="1" speed ="1">The newest model. Seemingly fell from an unsuspecting passerby</item>
+		<item name="crumpled paper" damage ="1" speed ="1">A dry crumpled piece of paper rests against the side of the building, shielded by the pHarma.cleric's overhang</item>
+		<exits>0,0,wavewall,0,0,0</exits>
+	</room>
+	<room name="pharmacy" ref="pharmacy">
+		<description>The interior is lined with a white rubber surface, illuminated by warm light. Bright, acid green fluorescents denote the locations of scattered pHarma.prints. Winding, milky tubes feed each pHarma.print, unspooling from an undisclosed location above. Aromatic braids of flower hang from above, tied around the tubes.</description>
+		<item name="pharma.print bottle" damage ="1" speed ="1">An opened bottle sits in front of a pHarma.print dispensary. The mixture inside oozes light</item>
+		<item name="notes" damage ="5.3" speed ="1">A worn notepad lays on the counter, its small bulb flashing intermittently</item>
+		<exits>0,wavewall,0,0,0,0</exits>
+	</room>
+</rooms>
